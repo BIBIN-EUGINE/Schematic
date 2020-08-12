@@ -1,0 +1,94 @@
+(ExpressProject "power_dist"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library3.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\power_dist.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (MPSSessionName "b_eugine")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "g:\power_dist\power_dist.dsn")
+      (Path "Design Resources" "g:\power_dist\power_dist.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "g:\power_dist\library3.olb")
+      (Select "Design Resources" "Library" "g:\power_dist\library3.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 386"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 1396 0 429")
+        (Scroll "0 -106")
+        (Zoom "49")
+        (Occurrence "/"))
+      (Path "G:\POWER_DIST\POWER_DIST.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE5")))
+  (PartMRUSelector
+    (I.MX8M_POWER
+      (FullPartName "I.MX8M_POWER.Normal")
+      (LibraryName "G:\POWER_DIST\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (MPM3830
+      (FullPartName "MPM3830.Normal")
+      (LibraryName "G:\POWER_DIST\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (LDCL015
+      (FullPartName "LDCL015.Normal")
+      (LibraryName "G:\POWER_DIST\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PF4210C
+      (FullPartName "PF4210C.Normal")
+      (LibraryName "G:\POWER_DIST\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (QbreakN
+      (FullPartName "QbreakN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (UM805RE
+      (FullPartName "UM805RE.Normal")
+      (LibraryName "G:\POWER_DIST\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "G:\power_dist"))
