@@ -1,0 +1,142 @@
+(ExpressProject "power_distribution"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library3.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\power_distribution.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\power_distribution-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\power_distribution-pspicefiles\schematic1\power_dist.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\power_distribution-pspicefiles\schematic1\power_dist.sim"
+        (DisplayName "SCHEMATIC1-POWER_DIST")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (PORTRIGHT-R
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (MPM3830
+      (FullPartName "MPM3830.Normal")
+      (LibraryName "G:\DESIGN\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (2N4265
+      (FullPartName "2N4265.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (XC4036EX/BGA432
+      (FullPartName "XC4036EX/BGA432.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\FPGA.OLB")
+      (DeviceIndex "0"))
+    (UM805RE
+      (FullPartName "UM805RE.Normal")
+      (LibraryName "G:\DESIGN\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PF4210C
+      (FullPartName "PF4210C.Normal")
+      (LibraryName "G:\DESIGN\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PF4210B
+      (FullPartName "PF4210B.Normal")
+      (LibraryName "G:\DESIGN\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (PF:4210
+      (FullPartName "PF:4210.Normal")
+      (LibraryName "G:\DESIGN\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    ("SOURCE VOLTAGE"
+      (FullPartName "SOURCE VOLTAGE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (V404J36/SIMM
+      (FullPartName "V404J36/SIMM.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\DRAM.OLB")
+      (DeviceIndex "0"))
+    (V29C51002B/LCC
+      (FullPartName "V29C51002B/LCC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\MISCMEMORY.OLB")
+      (DeviceIndex "0"))
+    (V30177
+      (FullPartName "V30177.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\SILICONIX.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2-silent\tools\capture\library")
+  (MPSSessionName "b_eugine")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 390"))
+      (Tab 0))))

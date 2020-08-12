@@ -1,0 +1,59 @@
+
+**** 08/07/19 16:33:31 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-POWER_DIST"  [ G:\design\power_distribution-PSpiceFiles\SCHEMATIC1\POWER_DIST.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "POWER_DIST.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\b_eugine\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V3 1v 5V 0.2V 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source POWER_DISTRIBUTION
+.EXTERNAL INPUT PMIC_ON
+.EXTERNAL INPUT LED_PG
+.EXTERNAL INPUT POWERMODE
+C_C1         0 N02995  22000n  TC=0,0 
+C_C2         0 N02995  100n  TC=0,0 
+V_V2         N02995 0 3.3Vdc
+R_R3         PMIC_ON N03225  10k TC=0,0 
+V_V3         N03669 0 1Vdc
+C_C3         0 N03484  100n  TC=0,0 
+R_R2         0 N03706  360k TC=0,0 
+C_C5         0 N03484  22000n  TC=0,0 
+L_L1         N03669 N03484  0.47uH  
+R_R1         N03706 N03484  220k TC=0,0 
+C_C4         0 N03484  22000n  TC=0,0 
+
+**** RESUMING POWER_DIST.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node PMIC_ON.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N03225.
+
+ERROR(ORPSIM-15142): Node PMIC_ON is floating
+
+ERROR(ORPSIM-15142): Node N03225 is floating
+

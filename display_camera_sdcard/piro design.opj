@@ -1,0 +1,98 @@
+(ExpressProject "piro design"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\camera module.olb"
+        (Type "Schematic Library"))
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\piro design.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (MPSSessionName "b_eugine")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\piro design.dsn")
+      (Path "Design Resources" ".\piro design.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\piro design.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\piro design.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 150"))
+      (Tab 0)))
+  (PartMRUSelector
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MICRO-SD
+      (FullPartName "MICRO-SD.Normal")
+      (LibraryName "G:\DESIGN\CAMERA MODULE.OLB")
+      (DeviceIndex "0"))
+    ("display module"
+      (FullPartName "display module.Normal")
+      (LibraryName "G:\DESIGN\CAMERA MODULE.OLB")
+      (DeviceIndex "0"))
+    ("camera module"
+      (FullPartName "camera module.Normal")
+      (LibraryName "G:\DESIGN\CAMERA MODULE.OLB")
+      (DeviceIndex "0"))
+    (i.mx8m
+      (FullPartName "i.mx8m.Normal")
+      (LibraryName "G:\DESIGN\CAMERA MODULE.OLB")
+      (DeviceIndex "0"))
+    (DACSER24
+      (FullPartName "DACSER24.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\DATACONV.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 10X2"
+      (FullPartName "HEADER 10X2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 10x4"
+      (FullPartName "HEADER 10x4.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (MT4V25632/SIMM
+      (FullPartName "MT4V25632/SIMM.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\DRAM.OLB")
+      (DeviceIndex "0"))
+    (MT57V128H36P/BGA
+      (FullPartName "MT57V128H36P/BGA.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\SRAM.OLB")
+      (DeviceIndex "0"))
+    (MT53C1K18B2/LCC
+      (FullPartName "MT53C1K18B2/LCC.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\FIFO.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2-silent\tools\capture\library\pspice")
+  (Folder "Simulation Resources"
+    (Folder "Indesign"
+      (File ".\indesign\cds.lib"
+        (Type "Report")
+        (DisplayName ".\Indesign\cds.lib"))
+      (File ".\indesign\hdl.var"
+        (Type "Report")
+        (DisplayName ".\Indesign\hdl.var"))
+      (File ".\indesign\piro design.vhd"
+        (Type "VHDL Source")
+        (DisplayName ".\Indesign\PIRO DESIGN.vhd"))
+      (File ".\indesign\stubi.vhd"
+        (Type "VHDL Source")
+        (DisplayName ".\Indesign\StubI.vhd"))
+      (File ".\indesign\sdf.cmd"
+        (Type "Report")
+        (DisplayName ".\Indesign\sdf.cmd")))))

@@ -1,0 +1,29 @@
+(ExpressProject "Design2"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design2.dsn"
+      (Type "Schematic Design")))
+  (Folder "Outputs"
+    (Sort User)
+    (File "PF.PRP"
+      (Type "Report")
+      (DisplayName "PF.PRP")))
+  (Folder "Referenced Projects")
+  (MPSSessionName "b_eugine")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "G:\design\design2.dsn")
+      (Path "Design Resources" "G:\design\design2.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" "G:\design\design2.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 386"))
+      (Tab 0)))
+  (PartMRUSelector))
