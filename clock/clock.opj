@@ -1,0 +1,79 @@
+(ExpressProject "clock"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\clock.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (PORTRIGHT-R
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RFD7N10LESM9A/TO
+      (FullPartName "RFD7N10LESM9A/TO.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2-SILENT\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (OSCILLATOR
+      (FullPartName "OSCILLATOR.Normal")
+      (LibraryName "G:\CLOCK\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("pci mems"
+      (FullPartName "pci mems.Normal")
+      (LibraryName "G:\CLOCK\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (4402
+      (FullPartName "4402.Normal")
+      (LibraryName "G:\CLOCK\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (y403
+      (FullPartName "y403.Normal")
+      (LibraryName "G:\CLOCK\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (i.mx.clock
+      (FullPartName "i.mx.clock.Normal")
+      (LibraryName "G:\CLOCK\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2-silent\tools\capture\library")
+  (MPSSessionName "b_eugine")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\clock.dsn")
+      (Path "Design Resources" ".\clock.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library1.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 390"))
+      (Tab 0))))
