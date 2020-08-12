@@ -1,0 +1,59 @@
+(ExpressProject "microPhone"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\microphone.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("I.MX8 Camera"
+      (FullPartName "I.MX8 Camera.Normal")
+      (LibraryName "D:\ORCAD PROJECTS\PIRO PROJ 1\LIBRARY3.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MicroPhone
+      (FullPartName "MicroPhone.Normal")
+      (LibraryName "D:\ORCAD PROJECTS\PIRO PROJ 1\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\OrCad Projects\piro Proj 1")
+  (MPSSessionName "xybqf")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "D:\OrCad Projects\piro Proj 1\microphone.dsn")
+      (Path "Design Resources" "D:\OrCad Projects\piro Proj 1\microphone.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "D:\OrCad Projects\piro Proj 1\microphone.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" "D:\OrCad Projects\piro Proj 1\microphone.dsn"
+         "Design Cache" "I.MX8 Camera"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 434"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 -164 1475 61 534")
+        (Scroll "712 310")
+        (Zoom "240")
+        (Occurrence "/"))
+      (Path "D:\ORCAD PROJECTS\PIRO PROJ 1\MICROPHONE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
